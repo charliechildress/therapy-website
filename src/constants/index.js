@@ -88,23 +88,23 @@ const books = [
 
 const services = [
   {
-    service: "15 minute consultation",
+    service: "15 Minute Consultation",
     price: "free",
   },
   {
-    service: "50 minute individual session",
+    service: "50 Minute Individual Session",
     price: "$125",
   },
   {
-    service: "90 minute individual session",
+    service: "90 Minute Individual Session",
     price: "$200",
   },
   {
-    service: "50 minute couples session",
+    service: "50 Minute Couples Session",
     price: "$200",
   },
   {
-    service: "90 minute couples session",
+    service: "90 Minute Couples Session",
     price: "$300",
   },
 ];
