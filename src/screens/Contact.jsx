@@ -45,8 +45,40 @@ const Contact = () => {
               </div>
             </div>
             <h2 className="flex-0 font-serif-italic pt-6 font-semibold text-dark-text text-2xl 3xl:text-6xl 2xl:text-6xl xl:text-6xl lg:text-4xl md:text-4xl sm:text-3xl xs:text-xl">
-              Documents
+              Contact Information
             </h2>
+            <div className="flex-row">
+              <div className="flex drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] flex-col justify-center">
+                <div className="flex pt-6 sm:pt-4 xs:pt-2">
+                  <p className="font-bold text-card-text font-serif 3xl:text-3xl 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-md xs:text-md">
+                    Phone Number
+                  </p>
+                  <p className="px-2 font-bold text-card-text font-serif-italic 3xl:text-3xl 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-md xs:text-md">
+                    -
+                  </p>
+                  <a
+                    href="tel:7272611048"
+                    className="pt-0.5 font-medium text-card-text hover:underline font-serif-italic 3xl:text-3xl 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-md xs:text-md"
+                  >
+                    727-261-1048
+                  </a>
+                </div>
+                <div className="flex pt-6 sm:pt-4 xs:pt-2">
+                  <p className="font-bold text-card-text font-serif 3xl:text-3xl 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-md xs:text-md">
+                    Email
+                  </p>
+                  <p className="px-2 font-bold text-card-text font-serif-italic 3xl:text-3xl 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-md xs:text-md">
+                    -
+                  </p>
+                  <a
+                    href="mailto:pchildresstherapy.com"
+                    className="pt-0.5 font-medium text-card-text hover:underline font-serif-italic 3xl:text-3xl 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-md xs:text-md"
+                  >
+                    pchildresstherapy@gmail.com
+                  </a>
+                </div>
+              </div>
+            </div>
           </motion.div>
           <motion.div
             initial="hidden"

@@ -22,9 +22,9 @@ export default function PermanentDrawerLeft({ active }) {
   return (
     <ThemeProvider theme={theme}>
       <Drawer variant="permanent" anchor="top">
-        <div className="flex flex-row font-serif m-4 text-white text-xl sm:text-base xs:text-sm font-bold">
+        <div className="flex flex-row font-serif m-4 justify-between text-white text-xl sm:text-base xs:text-sm font-bold">
           <a href="/">
-            <p className="hover:font-extrabold xs:mr-12 font-serif-italic text-2xl sm:text-lg xs:text-sm font-normal text-shadow-header">
+            <p className="hover:font-extrabold font-serif-italic text-2xl sm:text-lg xs:text-sm font-normal text-shadow-header">
               Patricia Childress
             </p>
           </a>
@@ -53,7 +53,7 @@ export default function PermanentDrawerLeft({ active }) {
                 </Box>
               )}
             </a>
-            <a href="Contact" className=" xs:pr-4 hover:underline">
+            <a href="Contact" className=" hover:underline">
               {active === "Contact" && (
                 <Box>
                   <p className="text-header-select">Contact</p>

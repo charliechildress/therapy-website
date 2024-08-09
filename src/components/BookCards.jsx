@@ -30,10 +30,10 @@ const BookCards = () => {
                   <p className="pt-4 text-md font-semibold text-card-text font-serif">
                     {book.synopsis}
                   </p>
-                  <p className="flex flex-row font-serif 3xl:space-x-10 2xl:space-x-7 space-x-5 md:space-x-3 sm:space-x-2 xs:space-x-1 mb-2 flex-auto pt-8 sm:pt-4 xs:pt-4 text-card-text">
+                  <p className="flex flex-row flex-wrap font-serif mb-2 flex-auto pt-8 sm:pt-4 xs:pt-4 text-card-text">
                     {book.tags.map((tag) => (
                       <p
-                        className="text-card-button-text font-serif font-semibold bg-card-button rounded-md px-1 shadow-[2px_4px_2px_rgba(0,0,0,0.7)] transition  hover:-translate-y-1"
+                        className="text-card-button-text font-serif font-semibold bg-card-button rounded-md px-1 my-2 3xl:mr-10 2xl:mr-7 mr-5 md:mr-3 sm:mr-2 xs:mr-2 shadow-[2px_4px_2px_rgba(0,0,0,0.7)] transition  hover:-translate-y-1"
                         key={tag}
                       >
                         {tag}{" "}
@@ -53,8 +53,8 @@ const BookCards = () => {
                     </a>
                   </div>
                 </div>
-                <div className="flex-1 flex justify-center transition lg:pr-8 md:pr-8 sm:pr-8 xs:pr-8 hover:-translate-y-2">
-                  <div className="w-1/2 h-3/4 m-4">
+                <div className="flex-1 flex justify-center transition hover:-translate-y-2">
+                  <div className="w-1/2 h-3/4 m-4 justify-center">
                     <img
                       src={book.demo}
                       alt={book.title}
@@ -85,10 +85,10 @@ const BookCards = () => {
                   <p className="pt-4 font-serif text-md font-semibold text-card-text">
                     {book.synopsis}
                   </p>
-                  <p className="flex flex-row font-serif 3xl:space-x-10 2xl:space-x-7 space-x-5 md:space-x-3 sm:space-x-2 xs:space-x-1 mb-2 flex-auto pt-8 sm:pt-4 xs:pt-4 text-card-text">
+                  <p className="flex flex-row flex-wrap font-serif mb-2 flex-auto pt-8 sm:pt-4 xs:pt-4 text-card-text">
                     {book.tags.map((tag) => (
                       <p
-                        className="text-card-button-text font-semibold bg-card-button rounded-md px-1 shadow-[2px_4px_2px_rgba(0,0,0,0.7)] transition  hover:-translate-y-1"
+                        className="text-card-button-text font-serif font-semibold bg-card-button rounded-md px-1 my-2 3xl:mr-10 2xl:mr-7 mr-5 md:mr-3 sm:mr-2 xs:mr-2 shadow-[2px_4px_2px_rgba(0,0,0,0.7)] transition  hover:-translate-y-1"
                         key={tag}
                       >
                         {tag}{" "}
@@ -108,7 +108,7 @@ const BookCards = () => {
                     </a>
                   </div>
                 </div>
-                <div className="flex-1 flex justify-center transition lg:pr-8 md:pr-8 sm:pr-8 xs:pr-8 hover:-translate-y-2">
+                <div className="flex-1 flex justify-center transition hover:-translate-y-2">
                   <div className="w-1/2 h-3/4 m-4">
                     <img
                       src={book.demo}

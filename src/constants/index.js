@@ -8,9 +8,7 @@ import healing from "../constants/demos/healing-relationships.jpg";
 import untethered from "../constants/demos/untethered-soul.jpg";
 
 const introduction = [
-  "I am glad you have found your way to my bio. Whether you are experiencing difficult times or need additional support to work through life, I am here to support and cheer you on. Many of our best days are still ahead of us. So let's get started!",
-  " I am a licensed clinical social worker with more than 20 years working with children, families, individuals, couples, and veterans. I want to create space to practice patience, understanding, and acceptance while acting as a change agent for you. I use an array of modalities including motivational interviewing, empowerment, cognitive behavioral, group psychotherapy, social information processing model, interpersonal psychotherapy, and more.",
-  " I have many years working at end of life and have a unique approach to life, includng finding peace and joy in the present. Some of the most impactful experiences in life come from intense pain.",
+  "Whether you're navigating tough times or seeking additional support, I'm here to help! With over 20 years of experience as a licensed clinical social worker, I've had the privilege of working with families, individuals, couples, and veterans. My goal is to create a safe and nurturing space where we can cultivate patience, understanding, and acceptance together. I utilize a variety of therapeutic approaches, including cognitive behavioral therapy, motivational interviewing, group psychotherapy, the social information processing model, and interpersonal psychotherapy, among others. My extensive experience in end-of-life care has given me a unique perspective on life's challenges, and I believe that life's most impactful moments often arise from intense pain. Together, we can find hope and discover that our best days are still ahead. Let's begin this journey together!",
 ];
 
 const books = [
