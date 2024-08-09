@@ -89,7 +89,7 @@ const books = [
 const services = [
   {
     service: "15 Minute Consultation",
-    price: "free",
+    price: "Free",
   },
   {
     service: "50 Minute Individual Session",
