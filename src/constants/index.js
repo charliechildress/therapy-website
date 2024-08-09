@@ -55,7 +55,7 @@ const books = [
     author: "JH Simon",
     synopsis:
       "Narcissism is an overwhelming and confusing topic.  This book is insightful and offers advice for coping through toxic relationships.",
-    tags: ["Emotional Abuse", "Self-Empowerment", "Toxic Relationships"],
+    tags: ["Emotional Abuse", "Personal Growth", "Toxic Relationships"],
     link: "https://www.amazon.com/s?k=how+to+kill+a+narcissist&hvadid=616931177746&hvdev=c&hvlocphy=9192164&hvnetw=g&hvqmt=e&hvrand=11753086181802599066&hvtargid=kwd-282336630230&hydadcr=24630_13611748&tag=googhydr-20&ref=pd_sl_8bi3wgcoz2_e",
     demo: narcissist,
   },
@@ -73,7 +73,7 @@ const books = [
     author: "Stephanie Moulton Sarkis, PhD",
     synopsis:
       "Gaslighting, Narcissism and emotional destructive relationships can be difficult to move on from even years after the relationship ends.  This is a great book to help healing and how to avoid toxic individuals in the future.",
-    tags: ["Emotional Abuse", "Self-Empowerment", "Toxic Relationships"],
+    tags: ["Emotional Abuse", "Personal Growth", "Toxic Relationships"],
     link: "https://www.amazon.com/Healing-Toxic-Relationships-Gaslighting-Narcissism/dp/0306847256",
     demo: healing,
   },

@@ -14,7 +14,7 @@ const Resources = () => {
         backgroundPositionX: "center",
         backgroundPositionY: "center",
       }}
-      className="px-40 sm:px-10 xs:px-4 flex flex-col w-full h-full items-center"
+      className="px-40 sm:px-10 xs:px-4 flex flex-col w-screen h-full items-center"
     >
       <motion.div
         initial="hidden"
