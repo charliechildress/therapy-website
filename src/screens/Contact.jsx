@@ -57,10 +57,10 @@ const Contact = () => {
                     -
                   </p>
                   <a
-                    href="tel:7272611048"
+                    href="tel:7279105333"
                     className="pt-0.5 font-medium text-card-text hover:underline font-serif-italic 3xl:text-3xl 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-md xs:text-md"
                   >
-                    727-332-0087
+                    727-910-5333
                   </a>
                 </div>
                 <div className="flex pt-6 sm:pt-4 xs:pt-2">
