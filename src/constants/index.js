@@ -92,16 +92,12 @@ const services = [
     price: "Free",
   },
   {
-    service: "50 Minute Individual Session",
-    price: "$125",
+    service: "60 Minute Individual Session",
+    price: "$140",
   },
   {
-    service: "90 Minute Individual Session",
-    price: "$200",
-  },
-  {
-    service: "50 Minute Couples Session",
-    price: "$200",
+    service: "60 Minute Couples Session",
+    price: "$225",
   },
   {
     service: "90 Minute Couples Session",
